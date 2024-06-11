@@ -1,0 +1,12 @@
+POST  http://localhost:3535/addpaciente
+Content-Type: application/json
+
+{
+    "nome": "teste2",
+    "cpf": "222.652.222-69",
+    "sexo": "feminino",
+    "idade": "55",
+    "cod_paciente": "1"
+}
+
+###
