@@ -21,8 +21,6 @@ const testConnection = async () => {
 };
 
 
-
-// Exportar o pool e a função de teste
 module.exports = {
   query: (text, params) => pool.query(text, params),
   testConnection,
